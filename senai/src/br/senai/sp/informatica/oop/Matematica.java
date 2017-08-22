@@ -1,5 +1,10 @@
 package br.senai.sp.informatica.oop;
 
+/**
+ * 
+ * @author Rafael Thayto
+ *
+ */
 public class Matematica {
 
 	// Atributos
