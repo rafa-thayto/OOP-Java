@@ -3,4 +3,8 @@
 <fullyQualifiedTypeName name="senai.Cachorro"/>
 <fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="senai.Pessoa"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cachorro"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Pessoa"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Conta"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Matematica"/>
 </qualifiedTypeNameHistroy>
