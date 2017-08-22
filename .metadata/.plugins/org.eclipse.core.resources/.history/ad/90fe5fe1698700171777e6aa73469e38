@@ -1,0 +1,34 @@
+package br.senai.sp.informatica.oop;
+
+public class Matematica {
+
+	// Atributos
+	
+	// Métodos
+	
+	/**
+	 * Este método retorna o maior entre dois números.
+	 * @param um primeiro número.
+	 * @param dois segundo número.
+	 * @return o maior entre dois números.
+	 */
+	int maior(int um, int dois) {
+		if (um > dois) {
+			return um;			
+		} else {
+			return dois;
+		}
+	}
+
+	/**
+	 * Esse método recebe dois valores e
+	 * retorna a soma deles.
+	 * @param um primeiro valor.
+	 * @param dois segundo valor.
+	 * @return a soma de dois números;
+	 */
+	double soma(double um, double dois) {
+		return um + dois;
+	}
+	
+}

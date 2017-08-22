@@ -1,0 +1,20 @@
+package br.senai.sp.informatica.oop;
+
+public class Conta {
+	
+	// Atributos
+	String cliente;
+	double saldo;
+	
+	// Métodos
+	
+	void exibeSaldo() {
+		System.out.println(this.cliente + " seu saldo é de R$ " + this.saldo);
+	}
+	
+	void saca(double valor ) {
+		// slado = saldo - valor;
+		saldo -=valor;
+	}
+
+}

@@ -1,0 +1,14 @@
+package br.senai.sp.informatica.oop;
+
+public class ContaTestDrive {
+
+	public static void main(String[] args) {
+		
+		Conta conta = new Conta();
+		conta.cliente = "Jorge";
+		conta.saldo = 10_000.00;
+		conta.exibeSaldo();
+
+	}
+
+}
