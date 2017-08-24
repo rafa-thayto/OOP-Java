@@ -1,5 +1,10 @@
 package br.senai.sp.informatica.oop;
 
+/**
+ * Essa classe realiza operações matemáticas
+ * @author Rafael Thayto
+ *
+ */
 public class MatematicaTestDrive {
 
 	public static void main(String[] args) {
@@ -26,6 +31,18 @@ public class MatematicaTestDrive {
 		soma = matematica.soma(matematica.maior(2, 4), matematica.maior(3, 5));
 		
 		System.out.println(matematica.raizPell(9));
+		
+		double total = matematica.soma(2,3,4,5);
+		System.out.println("Total: " + total);
+		
+		double media = matematica.media(10, 20);
+		System.out.println("Média: " + media);
+		
+		media = matematica.media("10", "20");
+		System.out.println("Media string: " + media);
+		
+		media = matematica.media(30,30,30);
+		System.out.println("Media sla: " + media);
 		
 	}
 

@@ -12,6 +12,7 @@ public class CalculosCirculo {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Informe o valor do raio: ");
 		double raio = teclado.nextDouble();
+		System.out.println(teclado);
 		
 		// calcula o diâmetro de um círculo
 		// diametro = 2 * raio

@@ -60,4 +60,35 @@ public class Matematica {
 		
 	}
 	
+	double soma(double... numeros) {
+		double total = 0;
+		// Percorre o vetor de números
+		for (double numero : numeros) {
+			// Soma o número atual com o valor do total
+			total += numero;
+		}
+		// Retorna o total do somatório
+		return total;
+	}
+	
+	double media(int x, int y) {
+		System.out.println("media(int x, int y)");
+		return (x + y) / 2;
+	}
+	
+	double media(String x, String y) {
+		System.out.println("media(String x, String y");	
+		// Converte de String para int
+		int ix = Integer.parseInt(x);
+		int iy = Integer.parseInt(y);
+		
+		return (ix + iy) / 2;
+	}
+	
+	double media(double... numeros) {
+		System.out.println("double... numeros");
+		// Chama o método soma(double... numeros) dessa classe
+		return this.soma(numeros) / numeros.length;
+	}
+	
 }
