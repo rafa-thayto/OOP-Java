@@ -8,8 +8,8 @@ package br.senai.sp.informatica.oop;
 public class Conta {
 	
 	// Atributos
-	String cliente;
-	double saldo;
+	private String cliente;
+	private double saldo;
 	
 	// Métodos
 	
@@ -50,5 +50,26 @@ public class Conta {
 		// Deposita o valor na conta de destino
 		destino.deposita(valor);
 	}
+
+	public String getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		if (saldo > 0) {
+			this.saldo = saldo;			
+		} else {
+			System.err.println("Saldo inválido");
+		}
+	}
+	
 
 }
