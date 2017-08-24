@@ -4,8 +4,8 @@ public class ProdutoTestDrive {
 
 	public static void main(String[] args) {
 		
-		Produto xbacon = new Produto("12345678910", "X-Bacon é um produto", 5.50, "Alimenticio", true);
-		xbacon.getProduto();
+		Produto xbacon = new Produto(barCode, descicao, preco, categoria, perecivel)
+		
 
 	}
 

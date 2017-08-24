@@ -7,4 +7,10 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Pessoa"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Conta"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Matematica"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.logica.FuncionarioExterno"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Funcionario"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Produto"/>
 </qualifiedTypeNameHistroy>

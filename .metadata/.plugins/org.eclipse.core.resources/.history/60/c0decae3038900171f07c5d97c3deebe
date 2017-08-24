@@ -10,11 +10,11 @@ public class Produto {
 
 	public Produto(String barCode, String descicao, double preco, String categoria, boolean perecivel) {
 		super();
-		setBarCode(barCode);
-		setDescicao(descicao);
-		setPreco(preco);
-		setCategoria(categoria);
-		setPerecivel(perecivel);
+		this.barCode = barCode;
+		this.descicao = descicao;
+		this.preco = preco;
+		this.categoria = categoria;
+		this.perecivel = perecivel;
 	}
 
 	public String getBarCode() {
@@ -77,9 +77,6 @@ public class Produto {
 
 		System.out.println("Codigo de barras: " + this.barCode);
 		System.out.println("Descricao: " + this.descicao);
-		System.out.println("Preco: " + this.preco);
-		System.out.println("Categoria: " + this.categoria);
-		System.out.println("Perecivel: " + this.perecivel);
 		
 	}
 	

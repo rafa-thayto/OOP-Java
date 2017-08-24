@@ -78,7 +78,7 @@ public class Produto {
 		System.out.println("Codigo de barras: " + this.barCode);
 		System.out.println("Descricao: " + this.descicao);
 		System.out.println("Preco: " + this.preco);
-		System.out.println("Categoria: " + this.categoria);
+		System.out.println("Categoria: " + this.perecivel);
 		System.out.println("Perecivel: " + this.perecivel);
 		
 	}
