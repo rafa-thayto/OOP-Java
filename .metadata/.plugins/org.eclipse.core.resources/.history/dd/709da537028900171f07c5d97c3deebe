@@ -1,0 +1,11 @@
+package br.senai.sp.informatica.oop;
+
+public class Produto {
+
+	private String barCode;
+	private String descicao;
+	private double preco;
+	private String categoria;
+	private boolean perecivel;
+
+}

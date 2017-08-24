@@ -1,0 +1,15 @@
+package br.senai.sp.informatica.oop;
+
+public class FuncionarioTestDrive {
+
+	public static void main(String[] args) {
+		
+		Funcionario funcionario = new Funcionario();
+		
+		// Exibe os dados do funcionário
+		
+		
+
+	}
+
+}

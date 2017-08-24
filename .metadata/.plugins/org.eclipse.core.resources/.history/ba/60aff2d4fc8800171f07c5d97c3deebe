@@ -1,0 +1,19 @@
+package br.senai.sp.informatica.oop;
+
+/**
+ * 
+ * @author Rafael Thayto
+ *
+ */
+public class Funcionario {
+
+	// Atributos
+	private String nome;
+	private double salario;
+	private boolean ativo;
+	private String senha;
+	
+	// Encapsulamento - métodos getters e setters
+	
+	
+}

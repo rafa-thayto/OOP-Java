@@ -1,0 +1,21 @@
+package br.senai.sp.informatica.oop;
+
+public class FuncionarioTestDrive {
+
+	public static void main(String[] args) {
+		
+		Funcionario funcionario = new Funcionario();
+		funcionario.salario = -1200.00;
+		funcionario.senha = "123";
+		funcionario.ativo = true;
+		
+		// Exibe os dados do funcionário
+		System.out.println("Nome: " + funcionario.nome);
+		System.out.println("Salario: " + funcionario.salario);
+		System.out.println("Senha: " + funcionario.senha);
+		System.out.println("Ativo: " + funcionario.ativo);
+		
+
+	}
+
+}
