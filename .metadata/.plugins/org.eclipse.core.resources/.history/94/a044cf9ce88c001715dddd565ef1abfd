@@ -1,0 +1,9 @@
+package br.senai.sp.informatica.oop;
+
+public class Motor {
+
+	String tipo;
+	int potencia;
+	
+	
+}

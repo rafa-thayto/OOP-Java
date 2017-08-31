@@ -1,0 +1,43 @@
+package br.senai.sp.informatica.oop;
+
+public class ContaBanco {
+	int numero;
+	String tipo;
+	double saldo;
+	Cliente cliente;
+	
+	// Contrutores
+	public ContaBanco() {
+		
+	}
+	
+
+	// Métodos
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
+	
+	
+}

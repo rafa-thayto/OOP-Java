@@ -1,0 +1,11 @@
+package br.senai.sp.informatica.oop;
+
+public class Carro {
+
+	String modelo;
+	int velocidadeMaxima;
+	String cor;
+	double segundosZeroACem;
+	
+	
+}

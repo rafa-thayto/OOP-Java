@@ -1,0 +1,19 @@
+package br.senai.sp.informatica.oop;
+
+public class BancoTestDrive {
+
+	public static void main(String[] args) {
+
+		
+		Conta conta = new Conta(1, "Corrente", 10_000.00, new Cliente("Title", 06929749973));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

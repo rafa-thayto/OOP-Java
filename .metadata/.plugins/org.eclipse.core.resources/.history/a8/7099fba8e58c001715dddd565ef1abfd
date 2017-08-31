@@ -1,0 +1,15 @@
+package br.senai.sp.informatica.oop;
+
+public class CarroTestDrive {
+
+	public static void main(String[] args) {
+		
+		Carro ferrari = new Carro();
+		ferrari.modelo = "Ferrari Enzo";
+		ferrari.segundosZeroACem = 3.2;
+		ferrari.cor = "Vermelho";
+		ferrari.velocidadeMaxima = 349;
+		
+	}
+	
+}

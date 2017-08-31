@@ -1,0 +1,20 @@
+package br.senai.sp.informatica.oop;
+
+public class Carro {
+
+	String modelo;
+	int velocidadeMaxima;
+	String cor;
+	double segundosZeroACem;
+	public Carro(String modelo, int velocidadeMaxima, String cor, double segundosZeroACem) {
+		super();
+		this.modelo = modelo;
+		this.velocidadeMaxima = velocidadeMaxima;
+		this.cor = cor;
+		this.segundosZeroACem = segundosZeroACem;
+	}
+	
+	
+	
+	
+}

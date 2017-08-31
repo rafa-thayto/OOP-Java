@@ -10,9 +10,20 @@ public class Conta {
 	// Atributos
 	private String cliente;
 	private double saldo;
+	public static double saldoDoBanco;
+	
+	public Conta() {
+		
+	}
+	
+	public Conta(String cliente, double saldo) {
+		super();
+		this.cliente = cliente;
+		this.saldo = saldo;
+	}
 	
 	// Métodos
-	
+
 	/**
 	 * Esse método exibe o saldo do clinte
 	 */
@@ -27,6 +38,7 @@ public class Conta {
 	void saca(double valor ) {
 		// saldo = saldo - valor;
 		this.saldo -=valor;
+		Conta.saldoDoBanco -= valor;
 	}
 	
 	/**
@@ -37,6 +49,7 @@ public class Conta {
 	void deposita(double valor) {
 		// saldo = saldo + valor;
 		this.saldo += valor;
+		Conta.saldoDoBanco += valor;
 	}
 	
 	/**

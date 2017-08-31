@@ -1,0 +1,11 @@
+package br.senai.sp.informatica.oop;
+
+public class Galinha {
+
+	public int ovos;
+	
+	public void botar() {
+		this.ovos;
+	}
+	
+}

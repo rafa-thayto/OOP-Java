@@ -1,0 +1,17 @@
+package br.senai.sp.informatica.oop;
+
+public class GalinhaTeste {
+
+	public static void main(String[] args) {
+
+		Galinha coco = new Galinha();
+		coco.botar().botar().botar().botar();
+		System.out.println(coco.ovos);
+		
+		Galinha penosa = new Galinha();
+		penosa.botar().botar();
+		System.out.println(penosa);
+		
+	}
+
+}

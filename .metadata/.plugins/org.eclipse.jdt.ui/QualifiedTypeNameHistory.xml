@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="senai.Pessoa"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cachorro"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Pessoa"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Conta"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Matematica"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.logica.FuncionarioExterno"/>
@@ -13,4 +12,11 @@
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Produto"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Galinha"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Conta"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Carro"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Motor"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cliente"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.ContaBanco"/>
 </qualifiedTypeNameHistroy>
