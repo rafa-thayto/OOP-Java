@@ -19,4 +19,18 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Motor"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cliente"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.ContaBanco"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.PecasXadrez"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Medida"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Alien"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Cachorro"/>
+<fullyQualifiedTypeName name="java.rmi.activation.ActivationID"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Animal"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Galinha"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="br.com.bancomalula.Conta"/>
+<fullyQualifiedTypeName name="br.com.bancomalula.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bancomalula.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bancomalula.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bancomalula.Sexo"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>
