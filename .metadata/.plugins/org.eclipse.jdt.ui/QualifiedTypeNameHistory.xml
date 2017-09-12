@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="senai.Cachorro"/>
-<fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="senai.Pessoa"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cachorro"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Pessoa"/>
@@ -22,10 +21,7 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.PecasXadrez"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Medida"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Alien"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Cachorro"/>
 <fullyQualifiedTypeName name="java.rmi.activation.ActivationID"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Animal"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Galinha"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="br.com.bancomalula.Conta"/>
 <fullyQualifiedTypeName name="br.com.bancomalula.ContaCorrente"/>
@@ -33,4 +29,30 @@
 <fullyQualifiedTypeName name="br.com.bancomalula.Cliente"/>
 <fullyQualifiedTypeName name="br.com.bancomalula.Sexo"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Secretario"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Funcionario"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Analista"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Engenheiro"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Gerente"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Diretor"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.TipoSanguineo"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Sexo"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Departamento"/>
+<fullyQualifiedTypeName name="br.com.ozcorp.Cargo"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Cachorro"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Galinha"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Pombo"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.OperacaoMatematica"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Soma"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Animal"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Macaco"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.VolumeCalculavel"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.AreaCalculada"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Quadrado"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Cubo"/>
 </qualifiedTypeNameHistroy>

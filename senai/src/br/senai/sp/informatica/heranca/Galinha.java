@@ -6,4 +6,10 @@ public class Galinha extends Ave {
 		super(peso, comida);
 	}
 	
+	// Polimorfismo
+	@Override
+	void fazerBarulho() {
+		System.out.println("Cocoricóoooooooo !");;
+	}
+	
 }

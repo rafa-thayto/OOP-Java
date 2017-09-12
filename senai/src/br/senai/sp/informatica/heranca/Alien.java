@@ -6,4 +6,10 @@ public class Alien extends Animal {
 		super(peso, comida);
 	}
 
+	@Override
+	void fazerBarulho() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

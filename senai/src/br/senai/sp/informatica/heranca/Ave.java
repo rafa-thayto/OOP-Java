@@ -13,5 +13,11 @@ public class Ave extends Animal {
 	void botar() {
 		System.out.println("Botou um ovo !");
 	}
+
+	@Override
+	void fazerBarulho() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

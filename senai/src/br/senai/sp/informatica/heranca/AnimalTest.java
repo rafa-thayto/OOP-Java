@@ -2,8 +2,36 @@ package br.senai.sp.informatica.heranca;
 
 public class AnimalTest {
 
+	// Polimorfismo
+	public static void barulho(Animal animal) {
+		animal.fazerBarulho();
+	}
+	
 	public static void main(String[] args) {
-		Galinha penosa = new Galinha(2, "Milho");
+		
+		Cachorro toto = new Cachorro(10, "Carne");
+		Galinha penosa = new Galinha(5, "Milho");
+		Pombo pombo = new Pombo(2, "Cadáver");
+//		Animal generico = new Animal(0, null);
+		
+		barulho(toto);
+		barulho(penosa);
+		barulho(pombo);
+//		barulho(generico);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*Galinha penosa = new Galinha(2, "Milho");
 		penosa.comida = "Milho";
 		penosa.peso = 2;
 		penosa.fazerBarulho();
@@ -26,7 +54,7 @@ public class AnimalTest {
 		// instanceof serve para comparar objetos 
 		System.out.println(pitbull instanceof Cachorro);
 		System.out.println(pitbull instanceof Animal);
-		System.out.println(pitbull instanceof Galinha);
+		System.out.println(pitbull instanceof Galinha);*/
 		
 	}
 

@@ -1,6 +1,6 @@
 package br.senai.sp.informatica.heranca;
-
-public class Cachorro extends Animal {
+// Quando você coloca final na classe, ela não pode mais ser herdada
+public /*final*/ class Cachorro extends Animal {
 	
 	public Cachorro(double peso, String comida) {
 		super(peso, comida);
@@ -9,5 +9,10 @@ public class Cachorro extends Animal {
 	// Métodos
 	void enterrarOsso() {
 		System.out.println("Enterrou um osso !");
+	}
+
+	@Override
+	void fazerBarulho() {
+		
 	}
 }

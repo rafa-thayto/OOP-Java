@@ -1,11 +1,12 @@
 package br.senai.sp.informatica.heranca;
 
-public class Animal {
+public abstract class Animal {
 	
 	protected double peso;
 	protected String comida;
 	private String nome;
 	
+	// métodos implementados
 	public Animal(double peso, String comida) {
 		super();
 		this.peso = peso;
@@ -16,7 +17,9 @@ public class Animal {
 		System.out.println("Dormiu");
 	}
 	
-	void fazerBarulho() {
-		System.out.println("AAAAAHHN OOOOOOWWN AAAHN OOOHWN");
-	}
+	
+	// métodos a implementar
+	abstract void fazerBarulho();
+	
+	
 }
