@@ -55,4 +55,9 @@
 <fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Quadrado"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Cubo"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="org.w3c.dom.DOMError"/>
 </qualifiedTypeNameHistroy>
