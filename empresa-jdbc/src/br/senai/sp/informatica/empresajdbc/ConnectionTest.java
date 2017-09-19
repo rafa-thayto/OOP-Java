@@ -10,7 +10,7 @@ public class ConnectionTest {
 		// Abre uma conexão com o banco de dados
 		Connection conexao = new ConnectionFactory().getConnection();
 		
-		System.out.println();
+		System.out.println("SA PORRA CONECTO BUCETAAAAA!!");
 		
 		conexao.close();
 	}
