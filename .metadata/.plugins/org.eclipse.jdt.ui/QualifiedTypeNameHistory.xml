@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="senai.Cachorro"/>
-<fullyQualifiedTypeName name="senai.Pessoa"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Cachorro"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Pessoa"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Matematica"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.logica.FuncionarioExterno"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Funcionario"/>
-<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
-<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Produto"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Galinha"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.oop.Conta"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="org.w3c.dom.DOMError"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.ConnectionFactory"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresajdbc.ConnectionFactory"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
