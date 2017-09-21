@@ -1,7 +1,9 @@
-package br.senai.sp.informatica.agendajdbc;
+package br.senai.sp.informatica.agendajdbc.teste;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
+import br.senai.sp.informatica.agendajdbc.dao.ConnectionFactory;
 
 public class TestaConexao {
 

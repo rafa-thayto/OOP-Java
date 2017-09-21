@@ -1,4 +1,4 @@
-package br.senai.sp.informatica.agendajdbc;
+package br.senai.sp.informatica.agendajdbc.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ public class ConnectionFactory {
 			
 			// Retorna uma conexão com o banco de dados
 			// gerada pelo DriveManager
-			return DriverManager.getConnection("jdbc:mysql://localhost/agenda", "root", "root132");
+			return DriverManager.getConnection("jdbc:mysql://localhost/agendat", "root", "root132");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		} catch (ClassNotFoundException e) {
