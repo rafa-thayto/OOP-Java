@@ -8,7 +8,7 @@ import br.senai.sp.informatica.agendajdbc.model.Contato;
 public class TestaInsertion {
 
 	public static void main(String[] args) {
-		
+
 		// Cria um Contato
 		Contato contato = new Contato();
 		contato.setNome("Front-end");
@@ -16,7 +16,6 @@ public class TestaInsertion {
 		contato.setEndereco("No seu Coração / Browser");
 		// Calendar.getInstance() = data de hoje !
 		contato.setDataNascimento(Calendar.getInstance());
-		
 
 		// Cria uma instancia de ContatoDao
 		// abre uma conexão com o banco de dados
