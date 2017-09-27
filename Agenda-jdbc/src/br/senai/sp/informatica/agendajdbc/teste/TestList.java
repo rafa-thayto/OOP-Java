@@ -1,5 +1,6 @@
 package br.senai.sp.informatica.agendajdbc.teste;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import br.senai.sp.informatica.agendajdbc.dao.ContatoDao;
@@ -21,7 +22,7 @@ public class TestList {
 			System.out.println("Nome " + contato.getNome());
 			System.out.println("E-mail " + contato.getEmail());
 			System.out.println("Endereço " + contato.getEndereco());
-			System.out.println("Data de Nascimento " + contato.getDataNascimento().getTime() + "\n");
+			System.out.println("Data de Nascimento " + new SimpleDateFormat("dd/MM/yyyy").format(contato.getDataNascimento().getTime()) + "\n");
 		}
 	}
 
