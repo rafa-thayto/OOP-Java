@@ -1,0 +1,8 @@
+Group id = nome do pacote da aplicação = domínio escrito ao contrário
+
+Artifact Id = nome do projeto
+
+Version: é possível alterar posteriormente
+
+Sempre importar a tag lib antes do !DOCTYPE
+<%@ taglib uri="" %>

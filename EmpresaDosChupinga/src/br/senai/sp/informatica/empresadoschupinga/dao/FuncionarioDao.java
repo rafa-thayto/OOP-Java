@@ -23,7 +23,7 @@ public class FuncionarioDao {
 	// Salva
 	public void salva(br.senai.sp.informatica.empresadoschupinga.model.Funcionario funcionario) {
 		// Cria um comando sql
-		String sql = "INSERT INTO empresat (nome, email, senha) " + "VALUES (?, ?, ?)";
+		String sql = "INSERT INTO funcionario (nome, email, cpf, senha) " + "VALUES (?, ?, ?, ?)";
 		try {
 
 			// Cria um PreparedStatement
@@ -32,10 +32,8 @@ public class FuncionarioDao {
 			// Cria os parâmetros do PreparedStatement
 			stmt.setString(1, funcionario.getNome());
 			stmt.setString(2, funcionario.getEmail());
-			stmt.setString(3, funcionario.getSenha());
-
-			// Transforma o Calendar em date(cria um new Date()) e transfpr,a p tempo em
-			// milis que é como o date funciona
+			stmt.setString(3, funcionario.getCpf());
+			stmt.setString(4, funcionario.getSenha());
 
 			// Executa o insert
 			stmt.execute();
@@ -67,6 +65,7 @@ public class FuncionarioDao {
 				contato.setId(rs.getLong("id"));
 				contato.setNome(rs.getString("nome"));
 				contato.setEmail(rs.getString("email"));
+				contato.setCpf(rs.getString("cpf"));
 				contato.setSenha(rs.getString("senha"));
 
 				// Adiciona o contato à lista de contatos
@@ -83,6 +82,12 @@ public class FuncionarioDao {
 			return funcionarios;
 		} catch (SQLException e) {
 			throw new RuntimeException();
+		} finally {
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
 		}
 	}
 

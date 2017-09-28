@@ -47,7 +47,6 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.model.Contato"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.FuncionarioDao"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.ConnectionFactory"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>

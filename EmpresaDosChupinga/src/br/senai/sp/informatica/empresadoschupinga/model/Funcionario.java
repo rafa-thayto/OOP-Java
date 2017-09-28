@@ -6,6 +6,7 @@ public class Funcionario {
 	private Long id;
 	private String nome;
 	private String email;
+	private String cpf;
 	private String senha;
 	
 	// Contrutor
@@ -38,6 +39,14 @@ public class Funcionario {
 		this.email = email;
 	}
 
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
 	public String getSenha() {
 		return senha;
 	}
@@ -45,6 +54,6 @@ public class Funcionario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
+
 	
 }

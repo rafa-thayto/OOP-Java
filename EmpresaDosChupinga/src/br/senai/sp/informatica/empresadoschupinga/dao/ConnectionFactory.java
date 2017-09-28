@@ -13,7 +13,7 @@ public class ConnectionFactory {
 			
 			// Retorna uma conexão com o banco de dados
 			// gerada pelo DriveManager
-			return DriverManager.getConnection("jdbc:mysql://172.16.8.44/empresat", "tarde", "tarde");
+			return DriverManager.getConnection("jdbc:mysql://172.16.7.23/empresat", "tarde", "tarde");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		} catch (ClassNotFoundException e) {
