@@ -61,15 +61,15 @@ public class FuncionarioDao {
 			// Enquanto houver dados no resultSet
 			while (rs.next()) {
 				// Cria um contato com os dados do resultSet
-				Funcionario contato = new Funcionario();
-				contato.setId(rs.getLong("id"));
-				contato.setNome(rs.getString("nome"));
-				contato.setEmail(rs.getString("email"));
-				contato.setCpf(rs.getString("cpf"));
-				contato.setSenha(rs.getString("senha"));
+				Funcionario funcionario = new Funcionario();
+				funcionario.setId(rs.getLong("id"));
+				funcionario.setNome(rs.getString("nome"));
+				funcionario.setEmail(rs.getString("email"));
+				funcionario.setCpf(rs.getString("cpf"));
+				funcionario.setSenha(rs.getString("senha"));
 
 				// Adiciona o contato à lista de contatos
-				funcionarios.add(contato);
+				funcionarios.add(funcionario);
 			} // Fim do while
 
 			// Fecha o ResultSet

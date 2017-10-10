@@ -3,6 +3,7 @@ package br.senai.sp.informatica.empresadoschupinga.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -40,9 +41,10 @@ public class AdicionarFuncionarioServlet extends HttpServlet {
 			dao.salva(funcionario);
 
 			// Feedback para user
-			String html = "<html>" + "<head>" + "<meta charset=\"UTF-8\">" + "</head>" + "<body>"
-					+ "<h1>Funcionario cadastrado com sucesso !</h1>" + "</body>" + "</html>";
-			out.print(html);
+			RequestDispatcher dispatcher = req.getRequestDispatcher("/funcionario-adicionado.jsp");
+//			String html = "<html>" + "<head>" + "<meta charset=\"UTF-8\">" + "</head>" + "<body>"
+//					+ "<h1>Funcionario cadastrado com sucesso !</h1>" + "</body>" + "</html>";
+//			out.print(html);
 		} catch (Exception e) {
 			out.write(e.getMessage());
 		}

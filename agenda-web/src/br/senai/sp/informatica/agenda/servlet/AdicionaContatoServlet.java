@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -64,15 +65,19 @@ public class AdicionaContatoServlet extends HttpServlet{
 			// salva o contato no banco de dados
 			dao.salva(contato);
 			
-			// feedback pára o usuário
-			out.println("<html>");
+			// feedback para o usuário
+			// Redireciona o usuário para a página de feedback
+			RequestDispatcher dispatcher = req.getRequestDispatcher("/contato-adicionado.jsp");
+			dispatcher.forward(req, res);
+			
+			/*out.println("<html>");
 			out.println("<head>");
 			out.println("<meta charset=\"UTF=8\">");			
 			out.println("</head>");
 			out.println("<body>");
 			out.println("Contato " + contato.getNome() + " salvo com sucesso!");
 			out.println("</body>");
-			out.println("</html>");
+			out.println("</html>");*/
 			
 	}
 }
