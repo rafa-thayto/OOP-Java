@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Agenda-jdbc/Agenda-jdbc.iml" filepath="$PROJECT_DIR$/Agenda-jdbc/Agenda-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmpresaDosChupinga/EmpresaDosChupinga.iml" filepath="$PROJECT_DIR$/EmpresaDosChupinga/EmpresaDosChupinga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OlaMundo/OlaMundo.iml" filepath="$PROJECT_DIR$/OlaMundo/OlaMundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OzCorp/OzCorp.iml" filepath="$PROJECT_DIR$/OzCorp/OzCorp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agenda-web/agenda-web.iml" filepath="$PROJECT_DIR$/agenda-web/agenda-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algoritmo/algoritmo.iml" filepath="$PROJECT_DIR$/algoritmo/algoritmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/empresa-jdbc/empresa-jdbc.iml" filepath="$PROJECT_DIR$/empresa-jdbc/empresa-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-dados/estrutura-dados.iml" filepath="$PROJECT_DIR$/estrutura-dados/estrutura-dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logica/logica.iml" filepath="$PROJECT_DIR$/logica/logica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/senai/senai.iml" filepath="$PROJECT_DIR$/senai/senai.iml" />
+    </modules>
+  </component>
+</project>
