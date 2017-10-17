@@ -41,7 +41,9 @@ public class AdicionarFuncionarioServlet extends HttpServlet {
 			dao.salva(funcionario);
 
 			// Feedback para user
+			// Redireciona o usuário para a página de feedback
 			RequestDispatcher dispatcher = req.getRequestDispatcher("/funcionario-adicionado.jsp");
+			dispatcher.forward(req, res);
 //			String html = "<html>" + "<head>" + "<meta charset=\"UTF-8\">" + "</head>" + "<body>"
 //					+ "<h1>Funcionario cadastrado com sucesso !</h1>" + "</body>" + "</html>";
 //			out.print(html);

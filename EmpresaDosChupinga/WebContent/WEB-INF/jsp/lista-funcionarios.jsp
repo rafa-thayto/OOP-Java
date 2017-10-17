@@ -2,7 +2,6 @@
     pageEncoding="UTF-8"%>
     
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -10,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
-<title>Lista de Contatos</title>
+<title>Lista de Funcionários</title>
 </head>
 
 <style type="text/css">
@@ -30,34 +29,39 @@
 	<!-- Cria uma instância de ContatoDao -->
 	<!-- ConatoDao dao = new ContatoDao() -->
 	<!-- Também abre uma conexão com o banco de dados -->
-	<jsp:useBean id="dao" class="br.senai.sp.informatica.agenda.dao.ContatoDao" />
 	
 	<table>
 		<tr>
 			<th>Nº</th>
 			<th>Nome:</th>
 			<th>E-mail:</th>
-			<th>Endereço:</th>
-			<th>Data de Nascimento:</th>
+			<th>CPF:</th>
+			<th>Senha:</th>
+			<th colspan="3">Ações</th>
 		</tr>
-		<c:forEach var="contato" items="${ dao.lista }" varStatus="id">
+		<c:forEach var="funcionario" items="${ funcionarios }" varStatus="id">
 		<tr style="background-color: #${ id.count % 2 == 0 ? 'FFF8E1' : '00E5FF'}">
 			<td>${ id.count }</td>
-			<td>${ contato.nome }</td>
+			<td>${ funcionario.nome }</td>
 			<td>
-				<c:if test="${ not empty contato.email }">
-					<a href="mailto:${ contato.email }">
-						${ contato.email }
+				<c:if test="${ not empty funcionario.email }">
+					<a href="mailto:${ funcionario.email }">
+						${ funcionario.email }
 					</a>
 				</c:if>
-				<c:if test="${ empty contato.email }">
+				<c:if test="${ empty funcionario.email }">
 					E-mail não informado 
 				</c:if>
 				
 			</td>
-			<td>${ contato.endereco }</td>
 			<td>
-				<fmt:formatDate value="${ contato.dataNascimento.time }" pattern="dd/MM/yyyy"/>
+				${ funcionario.cpf }
+			</td>
+			<td>
+				${ funcionario.senha }
+			</td>
+			<td>
+				<a href="mvc?logica=RemoveFuncionarioLogica&id=${ funcionario.id }">Excluir</a>
 			</td>
 		</tr>
 		</c:forEach>

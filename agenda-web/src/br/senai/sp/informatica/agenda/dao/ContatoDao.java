@@ -95,6 +95,23 @@ public class ContatoDao {
 			return contatos;
 		} catch (SQLException e) {
 			throw new RuntimeException();
+		} finally {
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
+		}
+	}
+	
+	public void excluir(Contato contato) {
+		try {
+			PreparedStatement stmt = connection.prepareStatement("DELETE FROM contato WHERE id = ?");
+			stmt.setLong(1, contato.getId());
+			stmt.execute();
+			stmt.close();
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
 		}
 	}
 

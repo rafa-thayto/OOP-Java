@@ -1,4 +1,4 @@
-package br.senai.sp.informatica.agenda.mvc.servlet;
+package br.senai.sp.informatica.empresadoschupinga.mvc.servlet;
 
 import java.io.IOException;
 
@@ -8,11 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.senai.sp.informatica.agenda.mvc.logica.Logica;
-import br.senai.sp.informatica.agenda.servlet.AdicionaContatoServlet;
+import br.senai.sp.informatica.empresadoschupinga.mvc.logica.Logica;
 
 @WebServlet("/mvc")
-public class ServletController extends HttpServlet{
+public class ServletController extends HttpServlet {
 
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
@@ -21,7 +20,7 @@ public class ServletController extends HttpServlet{
 		
 		// Monsta o nome da classe de lógica que deve
 		// ser executada
-		String className = "br.senai.sp.informatica.agenda.mvc.logica." + parametro;
+		String className = "br.senai.sp.informatica.empresadoschupinga.mvc.logica." + parametro;
 		
 		try {
 			// Carrega a classe em memória

@@ -21,7 +21,6 @@ INDEX VERSION 1.130+C:\Users\adminLocal\Desktop\Thayto\workspace\.metadata\.plug
 3599888337.index
 2725125150.index
 2834918470.index
-3546374490.index
 2838345968.index
 1750266485.index
 189530877.index
@@ -49,8 +48,8 @@ INDEX VERSION 1.130+C:\Users\adminLocal\Desktop\Thayto\workspace\.metadata\.plug
 2147179149.index
 134360950.index
 4062329064.index
-1924480154.index
 2075892729.index
+1924480154.index
 1925550385.index
 3446906363.index
 543409727.index

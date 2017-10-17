@@ -90,5 +90,16 @@ public class FuncionarioDao {
 			}
 		}
 	}
+	
+	public void excluir(Funcionario funcionario) {
+		try {
+			PreparedStatement stmt = connection.prepareStatement("DELETE FROM funcionario WHERE id = ?");
+			stmt.setLong(1, funcionario.getId());
+			stmt.execute();
+			stmt.close();
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
 }
