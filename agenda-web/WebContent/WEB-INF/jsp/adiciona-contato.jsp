@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Agenda - Cadastro de Contato</title>
+<title>Cadastro de Contato</title>
 <link href="css/jquery-ui.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
@@ -14,7 +14,7 @@
 	<header>		
 		<c:import url="cabecalho.jsp"></c:import>
 	</header>
-	<form action="adicionaContato" method="post">
+	<form action="mvc?logica=SalvaContatoLogica" method="post">
 		Nome: <br>
 		<input type="text" name="nome"> <br> 
 		E-mail: <br>
@@ -22,7 +22,7 @@
 		Endereço: <br>
 		<input type="text" name="endereco"> <br> 
 		Data de Nascimento: <br>
-		<senai:campData id="dataNascimento" />
+		<senai:campoData id="dataNascimento" />
 		
 		<input type="submit" value="Salvar">
 	</form>

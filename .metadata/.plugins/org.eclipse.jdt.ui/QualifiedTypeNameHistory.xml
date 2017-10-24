@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.OperacaoMatematica"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Soma"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Animal"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Macaco"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.VolumeCalculavel"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -23,7 +22,6 @@
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresajdbc.ConnectionFactory"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Long"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.dao.ConnectionFactory"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -36,12 +34,6 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.dao.ContatoDao"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.model.Contato"/>
-<fullyQualifiedTypeName name="java.text.ParseException"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.model.Contato"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.dao.ContatoDao"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Contato"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.mvc.logica.Logica"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.model.Contato"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.dao.ContatoDao"/>
 </qualifiedTypeNameHistroy>

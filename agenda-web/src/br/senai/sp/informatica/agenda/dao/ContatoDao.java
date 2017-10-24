@@ -24,8 +24,18 @@ public class ContatoDao {
 
 	// Salva
 	public void salva(Contato contato) {
+		String sql = null;
+		
+		// Se o contato não tem um id
+		if (contato.getId() != null) {
+			// Faça um update
+			sql = "UPDATE contato SET nome = ?, email = ?, endereco = ?, dataNascimento = ? WHERE id = ?";
+		} else {
+			// Faça um insert
+			sql = "INSERT INTO contato (nome, email, endereco, dataNascimento) " + "VALUES (?, ?, ?, ?)";			
+		}
+		
 		// Cria um comando sql
-		String sql = "INSERT INTO contato (nome, email, endereco, dataNascimento) " + "VALUES (?, ?, ?, ?)";
 		try {
 
 			// Cria um PreparedStatement
@@ -35,10 +45,14 @@ public class ContatoDao {
 			stmt.setString(1, contato.getNome());
 			stmt.setString(2, contato.getEmail());
 			stmt.setString(3, contato.getEndereco());
-
+			
 			// Transforma o Calendar em date(cria um new Date()) e transfpr,a p tempo em
 			// milis que é como o date funciona
 			stmt.setDate(4, new Date(contato.getDataNascimento().getTimeInMillis()));
+			
+			if (contato.getId() != null) {
+				stmt.setLong(5, contato.getId());
+			}
 
 			// Executa o insert
 			stmt.execute();

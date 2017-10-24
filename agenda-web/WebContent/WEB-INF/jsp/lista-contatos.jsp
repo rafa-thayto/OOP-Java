@@ -59,7 +59,14 @@
 			<td>
 				<fmt:formatDate value="${ contato.dataNascimento.time }" pattern="dd/MM/yyyy"/>
 			</td>
-			<td><a href="mvc?logica=RemoveContatoLogica&id=${contato.id}">Excluir</a></td>
+			<td>
+				<a href="mvc?logica=RemoveContatoLogica&id=${contato.id }">
+						Excluir
+				</a>
+				<a href="mvc?logica=ExibeContatoLogica&id=${contato.id }">
+						Editar
+				</a>
+			</td>
 		</tr>
 		</c:forEach>
 	</table>

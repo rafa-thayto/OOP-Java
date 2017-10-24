@@ -24,7 +24,7 @@ public class RemoveContatoLogica implements Logica{
 		System.out.println("Excluindo o contato...");
 		
 		// Após excluir o contato redireciona para a página de listar
-		return "mvc?logica=ListaContatoLogica"; 
+		return "mvc?logica=ListaContatosLogica"; 
 	}
 	
 }

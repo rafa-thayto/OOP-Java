@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.senai.sp.informatica.agenda.mvc.logica.Logica;
-import br.senai.sp.informatica.agenda.servlet.AdicionaContatoServlet;
 
 @WebServlet("/mvc")
 public class ServletController extends HttpServlet{
