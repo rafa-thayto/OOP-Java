@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Pombo"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.OperacaoMatematica"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Soma"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Animal"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.heranca.Macaco"/>
@@ -36,8 +34,6 @@
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.model.Contato"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Contato"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.FuncionarioDao"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.ConnectionFactory"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="br.com.senai.sp.informatica.alg.vetor.Cliente"/>
@@ -47,17 +43,21 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.mvc.logica.PrimeiraLogica"/>
-<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.mvc.logica.Logica"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.lang.Long"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.model.Contato"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.dao.ContatoDao"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.log.Log"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.mvc.logica.Logica"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.mvc.logica.Logica"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.FuncionarioDao"/>
 </qualifiedTypeNameHistroy>

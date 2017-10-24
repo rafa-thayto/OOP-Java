@@ -1,14 +1,12 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<%@ taglib tagdir="/WEB-INF/tags" prefix="senai" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Empresa - Cadastro de Funcionários</title>
+<title>Cadastro de Funcionários</title>
 <link href="css/jquery-ui.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 </head>
 <body>
 
@@ -16,7 +14,7 @@
 		<c:import url="cabecalho.jsp"></c:import>
 	</header>
 
-	<form action="adicionarFuncionario" method="post">
+	<form action="mvc?logica=SalvaFuncionarioLogica" method="post">
 		<label for="nome">Nome:</label> <br>
 		<input type="text" name="nome" id="nome"> <br>
 		<label for="email">Email:</label> <br>

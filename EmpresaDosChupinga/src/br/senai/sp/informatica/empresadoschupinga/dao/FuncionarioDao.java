@@ -23,7 +23,17 @@ public class FuncionarioDao {
 	// Salva
 	public void salva(br.senai.sp.informatica.empresadoschupinga.model.Funcionario funcionario) {
 		// Cria um comando sql
-		String sql = "INSERT INTO funcionario (nome, email, cpf, senha) " + "VALUES (?, ?, ?, ?)";
+		String sql = null;
+
+		// Se o contato não tem um id
+		if (funcionario.getId() != null) {
+			// Faça um update
+			sql = "UPDATE funcionario SET nome = ?, email = ?, cpf = ?, senha = ? WHERE id = ?";
+		} else {
+			// Faça um insert
+			sql = "INSERT INTO funcionario (nome, email, cpf, senha) " + "VALUES (?, ?, ?, ?)";
+		}
+		
 		try {
 
 			// Cria um PreparedStatement
@@ -35,6 +45,10 @@ public class FuncionarioDao {
 			stmt.setString(3, funcionario.getCpf());
 			stmt.setString(4, funcionario.getSenha());
 
+			if (funcionario.getId() != null) {
+				stmt.setLong(5, funcionario.getId());
+			}
+			
 			// Executa o insert
 			stmt.execute();
 			// Libera o recurso statement
@@ -90,7 +104,7 @@ public class FuncionarioDao {
 			}
 		}
 	}
-	
+
 	public void excluir(Funcionario funcionario) {
 		try {
 			PreparedStatement stmt = connection.prepareStatement("DELETE FROM funcionario WHERE id = ?");

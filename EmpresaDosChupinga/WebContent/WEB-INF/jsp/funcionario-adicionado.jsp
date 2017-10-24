@@ -7,6 +7,6 @@
 <title>Sucesso...</title>
 </head>
 <body>
-	Contato ${ param.nome } adicionado com sucesso.
+	<h1>Funcionario ${ param.nome } adicionado com sucesso.<h1>
 </body>
 </html>
