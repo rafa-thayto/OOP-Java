@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Cadastro de Funcionários</title>
 <link href="css/jquery-ui.min.css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery.js"></script>
+<c:import url="default-import.jsp"/>
 </head>
 <body>
 

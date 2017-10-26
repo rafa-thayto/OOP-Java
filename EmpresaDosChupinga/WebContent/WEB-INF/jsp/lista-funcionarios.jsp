@@ -10,17 +10,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <title>Lista de Funcionários</title>
+<c:import url="default-import.jsp"/>
 </head>
-
-<style type="text/css">
-	table, th, td {
-		border: 1px solid black;
-		border-collapse: collapse;
-	} 
-	th, td {
-		padding: 10px;
-	}
-</style>
 <body>
 	<header>	
 		<c:import url="cabecalho.jsp"></c:import>
@@ -30,8 +21,9 @@
 	<!-- ConatoDao dao = new ContatoDao() -->
 	<!-- Também abre uma conexão com o banco de dados -->
 	
-	<table>
-		<tr>
+	<table class="striped responsive-table">
+	  <thead>
+		<tr class="center-align">
 			<th>Nº</th>
 			<th>Nome:</th>
 			<th>E-mail:</th>
@@ -39,8 +31,10 @@
 			<th>Senha:</th>
 			<th colspan="3">Ações</th>
 		</tr>
+	  </thead>
+	  <tbody>
 		<c:forEach var="funcionario" items="${ funcionarios }" varStatus="id">
-		<tr style="background-color: #${ id.count % 2 == 0 ? 'FFF8E1' : '00E5FF'}">
+		<tr>
 			<td>${ id.count }</td>
 			<td>${ funcionario.nome }</td>
 			<td>
@@ -62,9 +56,12 @@
 			</td>
 			<td>
 				<a href="mvc?logica=RemoveFuncionarioLogica&id=${ funcionario.id }">Excluir</a>
+				
+				<a href="mvc?logica=ExibeFuncionarioLogica&id=${ funcionario.id }">Editar</a>
 			</td>
 		</tr>
 		</c:forEach>
+	  </tbody>
 	</table>
 
 	<footer>

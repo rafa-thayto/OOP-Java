@@ -9,6 +9,7 @@
 <link href="css/jquery-ui.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<c:import url="defaultimport.jsp"/>
 </head>
 <body>
 	<header>		

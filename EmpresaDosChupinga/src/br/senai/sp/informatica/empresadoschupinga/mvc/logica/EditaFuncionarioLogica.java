@@ -11,7 +11,7 @@ public class EditaFuncionarioLogica implements Logica {
 	@Override
 	public String executa(HttpServletRequest req, HttpServletResponse res) throws Exception {
 		
-		long id = Long.parseLong("id");
+		long id = Long.parseLong(req.getParameter("id"));
 		
 		String nome = req.getParameter("nome");
 		String email = req.getParameter("email");
@@ -30,7 +30,7 @@ public class EditaFuncionarioLogica implements Logica {
 		
 		dao.salva(funcionario);
 		
-		return "mvc?logica=ListaContatosLogica";
+		return "mvc?logica=ListaFuncionariosLogica";
 	}
 
 }

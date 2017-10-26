@@ -10,18 +10,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
+<c:import url="defaultimport.jsp"/>
 <title>Lista de Contatos</title>
 </head>
-
-<style type="text/css">
-	table, th, td {
-		border: 1px solid black;
-		border-collapse: collapse;
-	} 
-	th, td {
-		padding: 10px;
-	}
-</style>
 <body>
 	<header>	
 		<c:import url="cabecalho.jsp"></c:import>
@@ -32,6 +23,7 @@
 	<!-- Também abre uma conexão com o banco de dados -->
 	
 	<table>
+	  <thead>
 		<tr>
 			<th>Nº</th>
 			<th>Nome:</th>
@@ -40,6 +32,8 @@
 			<th>Data de Nascimento:</th>
 			<th colspan="3">Ações</th>
 		</tr>
+	  </thead>
+	  <tbody>
 		<c:forEach var="contato" items="${ contatos }" varStatus="id">
 		<tr style="background-color: #${ id.count % 2 == 0 ? 'FFF8E1' : '00E5FF'}">
 			<td>${ id.count }</td>
@@ -69,6 +63,7 @@
 			</td>
 		</tr>
 		</c:forEach>
+	  </tbody>
 	</table>
 
 	<footer>
