@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.dao.ContatoDao"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agendajdbc.model.Contato"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Contato"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -56,8 +55,9 @@
 <fullyQualifiedTypeName name="com.mysql.jdbc.log.Log"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.agenda.mvc.logica.Logica"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.mvc.logica.Logica"/>
 <fullyQualifiedTypeName name="java.lang.Long"/>
-<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.mvc.logica.Logica"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.dao.FuncionarioDao"/>
+<fullyQualifiedTypeName name="br.senai.sp.informatica.empresadoschupinga.model.Funcionario"/>
 </qualifiedTypeNameHistroy>

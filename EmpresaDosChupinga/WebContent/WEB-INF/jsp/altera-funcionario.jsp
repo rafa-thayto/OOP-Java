@@ -19,7 +19,7 @@
 			</div>
 			<div class="row">
 				<div class="input-field col s10">
-					<input type="text" name="email" value="${ requestScope.email }" id="inputEmail" class="validade" data-error="wrong" data-success="right"> 
+					<input type="email" name="email" value="${ requestScope.email }" id="inputEmail" class="validade" data-error="wrong" data-success="right"> 
 					<label class="active" for="inputEmail">E-mail</label>
 				</div>
 			</div>
@@ -42,5 +42,10 @@
 		</form>
 	</div>
 	<c:import url="rodape.jsp" />
+	<script type="text/javascript">
+	$(document).ready(function() {
+		    Materialize.updateTextFields();
+	});
+	</script>
 </body>
 </html>
