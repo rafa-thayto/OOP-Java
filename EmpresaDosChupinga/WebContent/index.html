@@ -14,40 +14,48 @@
 </head>
 
 <body>
-    <nav class="deep-purple darken-3">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
-                <li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
-              </ul>
-                <ul class="side-nav" id="mobile-demo">
+    <header>
+        <!-- Navbar -->
+        <nav class="deep-purple darken-3">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
                     <li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!-- Parallax Effect -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/parallax1.jpg">
-        </div>
-    </div>
-    <div class="section deep-purple darken-3">
-        <div class="row container">
-            <h2 class="header center white-text">Chupingoles</h2>
-            <p class="grey-text text-lighten-5 lighten-3">Essa empresa foi criada para podermos listar todos os funcionários chupingas que praticam o ato de chupingole e nos rendem muito dinheiro!</p>
-            <a class="btn waves-effect waves-purple grey lighten-2 black-text" onclick="Materialize.toast('Clicou forte de mais!', 4000)">Clique devagar!</a>
-        </div>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/parallax6.jpg">
-        </div>
-    </div>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
+                    <li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        
+        <!-- Parallax Effect -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/parallax1.jpg">
+            </div>
+        </div>
+        <div class="section deep-purple darken-3">
+            <div class="row container">
+                <h2 class="header center white-text">Chupingoles</h2>
+                <p class="grey-text text-lighten-5 lighten-3">Essa empresa foi criada para podermos listar todos os funcionários chupingas que praticam o ato de chupingole e nos rendem muito dinheiro!</p>
+                <a class="btn waves-effect waves-purple grey lighten-2 black-text" onclick="Materialize.toast('Clicou forte de mais!', 4000)">Clique devagar!</a>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/parallax6.jpg">
+            </div>
+        </div>
+    </main>
+        
     <!-- Compiled and minified JQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->

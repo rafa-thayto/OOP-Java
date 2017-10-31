@@ -4,13 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Cadastro de Funcionários</title>
+<title>Cadastro de Funcionï¿½rios</title>
 <link href="css/jquery-ui.min.css" rel="stylesheet">
 <c:import url="default-import.jsp"/>
 </head>
 <body>
 
 	<header>
+		<!-- Navbar -->
+		<nav class="deep-purple darken-3">
+				<div class="nav-wrapper">
+					<a href="index.html" class="brand-logo center"><i class="material-icons">euro_symbol</i>Cadastro de Chupingas</a>
+				</div>
+			</nav>
 		<c:import url="cabecalho.jsp"></c:import>
 	</header>
 
@@ -24,7 +30,12 @@
 		<label for="senha">Senha:</label> <br>
 		<input type="password" name="senha" id="senha" > <br>
 		
-		<input type="submit" value="enviar">
+		<button type="submit" class="btn waves-effect waves-light white-text deep-purple darken-3" onclick="Materialize.toast('Clicou forte de mais!', 4000)">
+			Enviar
+		</button>
+		<a class="btn waves-effect waves-light white-text deep-purple darken-3" href="index.html">
+			Cancelar
+		</a>
 	</form>
 	
 	<footer>

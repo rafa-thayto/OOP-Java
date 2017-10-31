@@ -14,7 +14,23 @@
 </head>
 <body>
 	<header>	
-		<c:import url="cabecalho.jsp"></c:import>
+		<!-- Navbar -->
+		<nav class="deep-purple darken-3">
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
+					<li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
+					<li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 
 	<!-- Cria uma instância de ContatoDao -->
@@ -25,7 +41,7 @@
 	  <thead>
 		<tr class="center-align">
 			<th>Nº</th>
-			<th>Nome:</th>
+			<th>Nome do Chupinga:</th>
 			<th>E-mail:</th>
 			<th>CPF:</th>
 			<th>Senha:</th>
@@ -55,9 +71,9 @@
 				${ funcionario.senha }
 			</td>
 			<td>
-				<a href="mvc?logica=RemoveFuncionarioLogica&id=${ funcionario.id }">Excluir</a>
+				<a href="mvc?logica=RemoveFuncionarioLogica&id=${ funcionario.id }"><div class="chip waves-effect waves-light white-text deep-purple darken-3">Excluir</div></a>
 				
-				<a href="mvc?logica=ExibeFuncionarioLogica&id=${ funcionario.id }">Editar</a>
+				<a href="mvc?logica=ExibeFuncionarioLogica&id=${ funcionario.id }"><div class="chip waves-effect waves-light white-text deep-purple darken-3">Editar</div></a>
 			</td>
 		</tr>
 		</c:forEach>
@@ -67,5 +83,8 @@
 	<footer>
 		<c:import url="rodape.jsp"></c:import>
 	</footer>
+	<script type="text/javascript">
+        $(".button-collapse").sideNav();
+    </script>
 </body>
 </html>

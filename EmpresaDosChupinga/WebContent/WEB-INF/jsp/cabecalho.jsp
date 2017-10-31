@@ -1,14 +1,11 @@
 <%@page import="java.util.Date"%>
 <%@page import="java.text.SimpleDateFormat"%>
-
-<h2>Bem-vindo a Empresa dos Chupinga</h2>
-
-<p>
+<div class="container center">
 	Data: <%= new SimpleDateFormat("dd/MM/yyyy").format(new Date()) %>
-</p>
+</div>
 
-<p>
+<div class="container center">
 	Hora: <%= new SimpleDateFormat("hh:mm:ss").format(new Date()) %>
-</p>
+</div>
 
 <hr>
