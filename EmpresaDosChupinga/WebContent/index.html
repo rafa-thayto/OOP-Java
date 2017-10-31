@@ -9,49 +9,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
 
 <body>
-    <ul id="dropdown1" class="dropdown-content">
-        <li>
-            <a href="mvc?logica=AdicionaFuncionarioLogica">Adicionar Funcionários</a>
-        </li>
-        <li>
-            <a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionário</a>
-        </li>
-    </ul>
     <nav class="deep-purple darken-3">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Empresa dos Chupinga</a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="sass.html">Sass</a>
-                </li>
-                <li>
-                    <a href="badges.html">Components</a>
-                </li>
-                <!-- Dropdown Trigger -->
-                <li>
-                    <a class="dropdown-button" href="#!" data-activates="dropdown1">Administração
-                        <i class="material-icons right">arrow_drop_down</i>
-                    </a>
-                </li>
+            <a href="#!" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
+                <li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
+              </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="mvc?logica=ListaFuncionariosLogica">Listar Funcionários</a></li>
+                    <li><a href="mvc?logica=AdicionaFuncionarioLogica">Cadastrar Funcionários</a></li>
             </ul>
         </div>
     </nav>
     
+    <!-- Parallax Effect -->
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/parallax1.jpg">
         </div>
     </div>
-    <div class="section white">
+    <div class="section deep-purple darken-3">
         <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than
-                the foreground content while scrolling.</p>
-            <a class="btn waves-effect waves-light" onclick="Materialize.toast('Clicou forte de mais!', 4000)">Clique devagar!</a>
+            <h2 class="header center white-text">Chupingoles</h2>
+            <p class="grey-text text-lighten-5 lighten-3">Essa empresa foi criada para podermos listar todos os funcionários chupingas que praticam o ato de chupingole e nos rendem muito dinheiro!</p>
+            <a class="btn waves-effect waves-purple grey lighten-2 black-text" onclick="Materialize.toast('Clicou forte de mais!', 4000)">Clique devagar!</a>
         </div>
     </div>
     <div class="parallax-container">
@@ -68,6 +56,8 @@
         $(document).ready(function () {
             $('.parallax').parallax();
         });
+        $(".button-collapse").sideNav();
+            
     </script>
 </body>
 
