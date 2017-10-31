@@ -59,6 +59,10 @@
 		<c:import url="rodape.jsp"></c:import>
 	</footer>
 	
-
+	<script type="text/javascript">
+		$(document).ready(function() {
+			    Materialize.updateTextFields();
+		});
+	</script>
 </body>
 </html>
