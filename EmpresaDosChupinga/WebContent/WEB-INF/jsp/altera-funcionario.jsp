@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				
-				<button type="submit" class="btn waves-effect waves-light white-text deep-purple darken-3" onclick="Materialize.toast('Cadastro conclu�do com sucesso!', 4000)">
+				<button type="submit" class="btn waves-effect waves-light white-text deep-purple darken-3" onclick="Materialize.toast('Cadastro concluido com sucesso!', 4000)">
 					Editar <i class="material-icons right">send</i>
 				</button>
 				<a class="btn waves-effect waves-light white-text deep-purple darken-3" href="index.html">

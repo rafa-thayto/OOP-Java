@@ -3798,3 +3798,11 @@ Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to download.ecl
 2017-10-31 16:23:09,792 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\main\resources
 2017-10-31 16:23:09,797 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-10-31 16:23:09,807 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\test\resources
+2017-10-31 16:26:21,782 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-31 16:26:21,797 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\main\resources
+2017-10-31 16:26:21,797 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-31 16:26:21,813 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\test\resources
+2017-10-31 16:26:34,111 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-31 16:26:34,126 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\main\resources
+2017-10-31 16:26:34,142 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-31 16:26:34,157 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adminLocal\Desktop\Thayto\workspace\EmpresaDosChupinga\src\test\resources
