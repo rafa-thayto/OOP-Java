@@ -17,7 +17,7 @@
 		<!-- Navbar -->
 		<nav class="deep-purple darken-3">
 			<div class="nav-wrapper">
-				<a href="#!" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
+				<a href="index.html" class="brand-logo center"><i class="material-icons">euro_symbol</i>Empresa dos Chupinga</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="index.html">Home</a></li>
